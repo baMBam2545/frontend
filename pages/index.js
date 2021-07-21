@@ -40,7 +40,7 @@ export default function Home() {
   return (
   <div>
       <Head>
-      <title>ออกแบบและพัฒนาเว็บไซด์</title>
+      <title>ออกแบบและพัฒนาเว็บไซด์.com</title>
     </Head>
     <main>
     <h1><center>Index Page</center></h1>
