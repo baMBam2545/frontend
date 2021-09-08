@@ -56,12 +56,12 @@ const register = () => {
           </div>
           {/* /.col */}
           <div className="col-4">
-            <button type="submit" className="btn btn-primary btn-block">Register</button>
+            <button type="submit" className="btn btn-info btn-block">Register</button>
           </div>
           {/* /.col */}
         </div>
       </form>
-      <div className="social-auth-links text-center">
+      {/* <div className="social-auth-links text-center">
         <p>- OR -</p>
         <a href="#" className="btn btn-block btn-primary">
           <i className="fab fa-facebook mr-2" />
@@ -71,7 +71,7 @@ const register = () => {
           <i className="fab fa-google-plus mr-2" />
           Sign up using Google+
         </a>
-      </div>
+      </div> */}
       <Link href="login"><a>Login</a></Link>
     </div>
   </div>

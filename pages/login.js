@@ -41,12 +41,12 @@ const login = () => {
           </div>
           {/* /.col */}
           <div className="col-4">
-            <button type="submit" className="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" className="btn btn-success btn-block">Sign In</button>
           </div>
           {/* /.col */}
         </div>
       </form>
-      <div className="social-auth-links text-center mb-3">
+      {/* <div className="social-auth-links text-center mb-3">
         <p>- OR -</p>
         <a href="#" className="btn btn-block btn-primary">
           <i className="fab fa-facebook mr-2" /> Sign in using Facebook
@@ -54,7 +54,7 @@ const login = () => {
         <a href="#" className="btn btn-block btn-danger">
           <i className="fab fa-google-plus mr-2" /> Sign in using Google+
         </a>
-      </div>
+      </div> */}
       <p className="mb-0">
       <Link href="register"><a>Register</a></Link>
       </p>
