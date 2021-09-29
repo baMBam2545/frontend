@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head';
 import Link from 'next/link';
-import AdminHOC from '../components/layouts/admin.hoc';
+import AdminHOC from '../../components/layouts/admin.hoc';
 import axios from 'axios'
 
 const Home = ({Home , error}) => {
@@ -60,8 +60,8 @@ const Home = ({Home , error}) => {
                     <td>{data.lastname}</td>
                     <td>{data.username}</td>
                     <td>{data.password}</td>
-                    <td>แก้ไข</td>
-                    <td>ลบ</td>
+                    <td className="text-center"> <Link href={`/users/edit/${data.id}`}><a className ="btn btn-warning">แก้ไข</a></Link></td>
+                    <td className="text-center"> <Link href = "#"><a className ="btn btn-danger">ลบ</a></Link></td>
                   </tr>
                 ))}
                 </tbody>                

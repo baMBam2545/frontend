@@ -1,3 +1,5 @@
+// import { Link } from "@material-ui/core"
+import Link from "next/link";
 const AdminHeader = () =>{
   return(<nav className="main-header navbar navbar-expand navbar-white navbar-light">
 {/* Left navbar links */}
@@ -6,10 +8,24 @@ const AdminHeader = () =>{
     <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
   </li>
   <li className="nav-item d-none d-sm-inline-block">
-    <a href="index3.html" className="nav-link">หน้าแรก</a>
+    <Link href="#"> 
+    <a className="nav-link">หน้าแรก </a>
+    </Link>
   </li>
   <li className="nav-item d-none d-sm-inline-block">
-    <a href="#" className="nav-link">ติดต่อเรา</a>
+    <Link href="/users"> 
+    <a className="nav-link">รายชื่อสมาชิก </a>
+    </Link>
+  </li>
+  <li className="nav-item d-none d-sm-inline-block">
+    <Link href="/register"> 
+    <a className="nav-link">สมัครสมาชิก</a>
+    </Link>
+  </li>
+  <li className="nav-item d-none d-sm-inline-block">
+    <Link href="#"> 
+    <a className="nav-link">ติดต่อเรา </a>
+    </Link>
   </li>
 </ul>
 {/* Right navbar links */}
